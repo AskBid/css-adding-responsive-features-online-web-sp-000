@@ -1,0 +1,28 @@
+@media screen and (max-width: 1108px) {
+	.wrapper {
+		width: 90%;
+	}
+
+	#social {
+		position: absolute;
+		margin: 0 auto;
+		width: auto;
+		top: 82px;
+		right: 4px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		font-size: 85%;
+	}
+
+	#logo h1 {
+		height: 35px;
+		width: 35px;
+	}
+	/*to 35px for height and width
+Change the #logo h2 font size to 2.2em
+Adjust the top positioning on the #social selector to 72px
+Change the col-3 p selector to have a column count of 2. Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes!*/
+}
