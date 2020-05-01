@@ -28,5 +28,7 @@
 	#social {
 		top: 72px;
 	}
-/*Change the col-3 p selector to have a column count of 2. Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes!*/*/
+	col-3 p {
+		column-count: 2;
+	}selector to have a column count of 2. Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes!*/*/
 }
